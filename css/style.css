@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ADE4DB, #6DA9E4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.todolist {
+    border: 2px solid #fff;
+    background-color: #f5cc99;
+    border-radius: 18px;
+    width: 35%;
+    padding: 2rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todolist-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 500;
+    padding: 0 0 2rem 0;
+}
+
+.todolist-cadastro {
+    
+}
