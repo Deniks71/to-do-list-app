@@ -24,6 +24,7 @@ body {
     padding: 2rem 2rem ;
     display: flex;
     flex-direction: column;
+    gap: 15px;
     align-items: center;
     justify-content: center;
 }
@@ -33,9 +34,43 @@ body {
     font-size: 2rem;
     color: #000000;
     font-weight: 500;
-    padding: 0 0 2rem 0;
 }
 
-.todolist-cadastro {
-    
+
+.todolist-cadastro-input {
+    outline: none;
+    width: 18.75rem;
+    height: 1.87rem;
+}
+
+
+.button{
+    width: 40px;
+    height: 1.87rem;
+    background-color: #ADE4DB;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 1.1rem;
+    color: #806d07;
+}
+
+.button:hover {
+    background-color: #6DA9E4 ;
+}
+
+
+
+.todolist-list-tasks li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list-style {
+
+    list-style: none;
+    background-color: white;
+    width: 18.75rem;
+    height: 1.87rem;
 }
