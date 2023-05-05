@@ -62,15 +62,22 @@ body {
 
 
 
-.todolist-list-tasks li {
+.todolist-list-tasks {
     display: flex;
-    flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .list-style {
 
     list-style: none;
-    background-color: white;
+    background-color: white; 
     width: 18.75rem;
     height: 1.87rem;
+}
+
+.fa-delete-left {
+    background-color: white;
+    font-size: 20px;
+
 }
