@@ -59,14 +59,17 @@ body {
 .button:hover {
     background-color: #6DA9E4 ;
 }
-
-
-
 .todolist-list-tasks {
     display: flex;
+    flex-direction: column;
     gap: 15px;
     justify-content: center;
     align-items: center;
+}
+
+.todolist-list-item{
+    display: flex;
+    
 }
 .list-style {
 
