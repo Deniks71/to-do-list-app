@@ -33,3 +33,18 @@ addButton.addEventListener('click', () => {
 })
 // ESTUDAR TARGET ELEMENT PARA PROSSEGUIR COM OS PROXIMOS EVENTOS! CONSULTAR VIDEO DO  MATHEYS BATTISTI
 
+document.addEventListener('click', (event) => {
+    const targetEvent = event.target
+    const parentEvent = targetEvent.closest('div');
+
+    if (targetEvent.classList.contains('delete-btn')){
+        parentEvent.remove();
+    }
+
+    if(targetEvent.classList.contains('list-style')) {
+        targetEvent.style.textDecoration = "line-through";
+    }
+
+
+
+})
