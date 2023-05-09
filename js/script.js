@@ -21,14 +21,22 @@ const saveTodo = (text) => {
     deleteItem.innerHTML = '<i class="fa-solid fa-delete-left">';
     todo.appendChild(deleteItem);
     todoContainer.appendChild(todo);
+    input.value = "";
+    
+    
 
 }
 
 addButton.addEventListener('click', () => {
-    saveTodo(input.value);
+    if (input.value == ""){
+        alert('Digite algo')
+    } else{
+        saveTodo(input.value);
+    }
+    
     //inserindo lista e button dentro da div e após isso div dentro da ul.
     //todoContainer.appendChild(list);
-    input.value = "";
+   
 
 })
 // ESTUDAR TARGET ELEMENT PARA PROSSEGUIR COM OS PROXIMOS EVENTOS! CONSULTAR VIDEO DO  MATHEYS BATTISTI
@@ -45,7 +53,8 @@ document.addEventListener('click', (event) => {
         targetEvent.classList.toggle('line-through');
 
     }
-
-
-
+    
 })
+
+
+

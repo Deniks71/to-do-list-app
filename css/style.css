@@ -41,6 +41,10 @@ body {
     outline: none;
     width: 18.75rem;
     height: 1.87rem;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
 }
 
 
@@ -69,6 +73,7 @@ body {
 
 .todolist-list-item{
     display: flex;
+    border: 1px solid black ;
     
 }
 .list-style {
