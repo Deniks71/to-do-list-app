@@ -42,7 +42,8 @@ document.addEventListener('click', (event) => {
     }
 
     if(targetEvent.classList.contains('list-style')) {
-        targetEvent.style.textDecoration = "line-through";
+        targetEvent.classList.toggle('line-through');
+
     }
 
 
