@@ -99,3 +99,187 @@ body {
     font-weight: 500;
 }
 
+@media (max-width: 1177px){
+    .todolist-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .button {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .todolist {
+        border: 2px solid #fff;
+        background-color: #f5cc99;
+        border-radius: 18px;
+        width: 60%;
+        padding: 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .todolist-cadastro-input {
+        outline: none;
+        width: 20.75rem;
+        height: 1.87rem;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 500;
+    }
+    .todolist-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .button {
+        width: 250px;
+    }
+
+    .list-style {
+
+        list-style: none;
+        background-color: white; 
+        width: 20.75rem;
+        height: 1.87rem;
+    }
+
+    
+
+    
+
+}
+
+@media (max-width: 638px) {
+    .todolist {
+        border: 2px solid #fff;
+        background-color: #f5cc99;
+        border-radius: 18px;
+        width: 60%;
+        padding: 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .todolist-cadastro-input {
+        outline: none;
+        width: 15.75rem;
+        height: 1.87rem;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 500;
+    }
+    .todolist-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .button {
+        width: 100px;
+    }
+
+    .list-style {
+
+        list-style: none;
+        background-color: white; 
+        width: 14.75rem;
+        height: 1.87rem;
+    }
+
+    
+
+    
+
+}
+
+@media (max-width: 468px) {
+    .todolist {
+        border: 2px solid #fff;
+        background-color: #f5cc99;
+        border-radius: 18px;
+        width: 80%;
+        padding: 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}
+
+@media (max-width: 350px) {
+    .todolist {
+        border: 2px solid #fff;
+        background-color: #f5cc99;
+        border-radius: 18px;
+        width: 90%;
+        padding: 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}
+
+@media (max-width: 330px) {
+    .todolist {
+        border: 2px solid #fff;
+        background-color: #f5cc99;
+        border-radius: 18px;
+        width: 90%;
+        padding: 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .todolist-cadastro-input {
+        outline: none;
+        width: 14.75rem;
+        height: 1.87rem;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 500;
+    }
+    .todolist-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .button {
+        width: 100px;
+    }
+
+    .list-style {
+
+        list-style: none;
+        background-color: white; 
+        width: 10.75rem;
+        height: 1.87rem;
+    }
+    
+
+}
